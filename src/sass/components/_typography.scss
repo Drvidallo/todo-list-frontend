@@ -1,0 +1,18 @@
+@font-face {
+    font-family: titleFont;
+    src: url(../../assets/fonts/GTWalsheimPro-Bold.ttf)
+}
+
+@font-face {
+    font-family: textFont;
+    src: url(../../assets/fonts/GTWalsheimPro-Light.ttf)
+}
+
+.main-title, .card__content--title {
+    font-family: titleFont;
+}
+
+.card__content--message, label {
+    font-family: textFont;
+}
+
